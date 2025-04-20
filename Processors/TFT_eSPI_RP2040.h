@@ -35,6 +35,7 @@
   #define RP2040_PIO_PUSHBLOCK
 #endif
 
+#define TFT_SPI_PORT 1
 #if !defined (RP2040_PIO_INTERFACE)// SPI
   // Use SPI0 as default if not defined
   #ifndef TFT_SPI_PORT
